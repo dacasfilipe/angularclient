@@ -8,5 +8,8 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.css'
 })
 export class App {
-  protected title = 'angularclient';
+  title: string;
+  constructor(){
+    this.title = 'Spring - Angular App';
+  }
 }
